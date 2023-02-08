@@ -1,6 +1,6 @@
 PROMPT INSERTING into EMPLOYEES
 set define off
-begin
+
 INSERT INTO trees VALUES 
         ( 1
         , 'Cool Tree'
@@ -73,5 +73,4 @@ INSERT INTO trees VALUES
         , 'jeff@thatjeff.com'
         , systimestamp
         );        
-end;
-/
+commit;
